@@ -1,0 +1,222 @@
+.flex.container  {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-item-left {
+  flex: 50%;
+}
+
+.flex-item-right {
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+  .flex-container {
+  display: flex;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+}
+.flex-container {
+  display: flex;
+  flex-direction: column;
+}
+flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: center;
+}
+flex-container {
+  display: flex;
+  height: 200px;
+  align-items: flex-end;
+}
+.flex-container {
+  display: flex;
+  height: 200px;
+  align-items: baseline;
+}
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: flex-end;
+}
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.flex-container {
+  display: flex;
+  height: 600px;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+}
+.flex-container {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+ .container {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     gap: 2rem; /* ou gap: 5%; */
+   }
+   <div class="container">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+  <div class="item">Item 4</div>
+</div>
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Cria colunas responsivas */
+  gap: 20px; /* Espaçamento entre os itens */
+}
+
+.item {
+  background-color: lightblue;
+  padding: 20px;
+  text-align: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Ajuste o valor conforme necessário */
+  height: 200px; /* Defina a altura do container para que o align-items funcione corretamente */
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: lightblue;
+}
+
+Código
+
+<div class="container">
+  <div class="box">Caixa 1</div>
+  <div class="box">Caixa 2</div>
+  <div class="box">Caixa 3</div>
+</div>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Flexbox Example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="caixa">Caixa 1</div>
+        <div class="caixa">Caixa 2</div>
+        <div class="caixa">Caixa 3</div>
+    </div>
+</body>
+</html>
+.container {
+    display: flex; /* Habilita o Flexbox */
+    justify-content: space-around; /* Distribui as caixas com espaço entre elas */
+    background-color: lightgray; /* Cor de fundo para visualização */
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    text-align: center; /* Centraliza o texto */
+    line-height: 100px; /* Alinha verticalmente o texto */
+}
+<div class="container">
+  <div>Item 1</div>
+  <div>Item 2</div>
+  <div>Item 3</div>
+</div>
+.container {
+  display: flex;                                                                                   
+  .container {
+  display: flex; /* Torna o container um contêiner flexível */
+  flex-direction: row; /* Define a direção como linha */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  justify-content: space-around; /* Distribui os itens com espaço ao redor */
+  align-items: center; /* Centraliza os itens verticalmente */
+}
+
+.item {
+  flex: 1; /* Permite que os itens ocupem o mesmo espaço */
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+  justify-content: space-between;
+  gap: 20px;
+}
+
